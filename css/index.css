@@ -1,0 +1,168 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.cabecera{
+  background-color: rgb(81, 92, 112);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.title1{
+   color: aliceblue;
+}
+.menu1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: center;
+  
+}
+li{
+    
+  text-decoration: none;
+  list-style: none;
+  padding: 30px;
+  color: white;
+}
+.menu2{
+  padding: 50px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(81, 92, 112) ;
+}
+.izquierdo{
+  max-width: 50%;
+
+
+}
+.derecho{
+  max-width: 50%;
+}
+.title2{
+  color: white;
+  font-size: 70px;
+  padding: 0 0 10px 0;
+}
+.p1{
+  max-width: 70%;
+  color: white;
+  padding: 0 0 10px 0
+}
+.p2{
+  max-width: 70%;
+    color: silver;
+}
+.sub1{
+  display: flex;
+  flex-direction: row;
+}
+.minimenu{
+  flex-direction: row;
+  width: 100%;
+}
+.boton1{
+  background-color: rgb(52, 189, 235);
+  height: 50px;
+  border-radius: 20px;
+  width: 200px;
+  color: white;
+}
+.p3{
+  max-width: 70%;
+    color: silver;
+    padding: 0 0 30px 0
+}
+.grid1{
+  display: grid;
+  grid-template-areas: "i1 i2 i3 i4 i5";
+ justify-content: space-around;
+ background-color: rgb(254, 247, 238);
+
+}
+.see{
+  font-size: 20px;
+}
+.menu3{
+  display: grid;
+  grid-template-areas: "izquierdo1 centro1 derecho1";
+  gap: 30px;
+  text-align: center;
+  padding: 30px 5px 0px 5px;
+  margin: 50px 50px 70px 50px
+
+}
+.boton2{
+  background-color: rgb(52, 189, 235);
+  border-radius: 20px;
+  height: 50px;
+  width: 150px;
+  color:white;
+}
+.title3{
+  margin: 10px 40px;
+}
+.menu4{
+  display: grid;
+    grid-template-areas: "img1 img2 img3 img4";
+    gap: 20px;
+    justify-content: space-around;
+    margin: 50px 50px 70px 50px;
+}
+.blue{
+  color: rgb(20, 178, 231);
+}
+.big-container{
+  margin: 50px 50px 70px 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "blog right";
+}
+.texto-blog{
+  display:flex;
+  flex-direction: column;
+
+}
+.blog-first{
+  display: flex;
+  flex-direction: row;
+}
+.text-feed{
+  display: flex;
+  
+  flex-direction:row;
+  padding: 20px;
+}
+.text-gray{
+  color:gray
+}
+.blue{
+  color:rgb(101, 101, 242)
+}
+.footer{
+  display: flex;
+  justify-content:space-around;
+}
+
+@media  (max-width:800px){ 
+  .menu4 {
+    display: grid;
+    grid-template-areas:
+        "img1 img2"
+        "img3 img";
+    
+    margin: 50px 50px 70px 50px;
+}
+.big-container {
+  margin: 50px 50px 70px 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas:
+      "blog"
+      "right";
+}
+}
